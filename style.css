@@ -21,7 +21,6 @@ html, body {
     width: 100%;
     background-color: #fff;
 }
-
 #home {
     width: 100%;
     min-height: 100vh;
@@ -35,15 +34,16 @@ html, body {
 #nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     width: 100%;
     padding: 30px 50px;
 }
 
-#nav img {
+#home img {
     width: 100px;
     filter: drop-shadow(0 0 .90rem rgb(255, 255, 255));
     margin-left: 2rem;
+    position: fixed;
 }
 
 #nav #right {
